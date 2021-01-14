@@ -1,7 +1,8 @@
 body{
     font-family: 'Merriweather Sans', sans-serif;
-    background-color: rgba(107, 202, 202, 0.705);
-    
+    margin:0;
+    padding: 0;
+    max-width: 100%;    
 }
 .logo
 {
@@ -10,6 +11,8 @@ body{
 
 .head{
     background-color: white;
+    max-width: 100%;
+
    
 }
 .navbar{
@@ -19,13 +22,10 @@ body{
     width: 100px;
     height: 70px;
 }
-section
-{
-    margin-top:30px ;
-}
+
 .car{
     background-image: linear-gradient(rgba(91, 136, 91, 0.562), rgba(228, 157, 157, 0.479));
-    padding: 10px;
+    padding-top: 10px;
 }
 .car img
 {
@@ -39,7 +39,6 @@ section
 .box1
 {
     border-radius: 5%;
-        width: 100%;
     background-color: rgb(231, 228, 228);
     border-radius: 5%;
     padding: 5px;
@@ -47,7 +46,7 @@ section
 }
 .car2{
     background-image: linear-gradient(rgb(201, 140, 140) , rgba(137, 170, 137, 0.534));
-    padding: 10px;
+    padding-top: 10px;
 
 }
 .car2 img{
@@ -88,3 +87,7 @@ h2{
 }
 
 
+footer
+{
+    margin-top: 20px;
+}
