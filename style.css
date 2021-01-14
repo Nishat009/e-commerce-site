@@ -1,14 +1,12 @@
 body{
     font-family: 'Merriweather Sans', sans-serif;
     background-color: rgba(107, 202, 202, 0.705);
-    margin: 0%;
-    padding: 0%;
+    
 }
 
 .head{
     background-color: white;
-    margin-top: 50px;
-    padding-top: 30px;
+   
 }
 .navbar{
     background-color: rgba(107, 202, 202, 0.705); 
